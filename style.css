@@ -29,6 +29,8 @@
     .content_block_header_block ul.topiclist li.header {
         background-color: rgb(27, 27, 27);
         background-image: none;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
     }
 
     .wrap {
@@ -44,6 +46,11 @@
         border-top: solid 1px rgb(0, 0, 0);
         border-right: solid 1px rgb(0, 0, 0);
         border-left: solid 1px rgb(0, 0, 0);
+    }
+
+    li.header {
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
     }
 
     a {
@@ -221,7 +228,32 @@
     }
 
     .inputbox {
-        color: #000;
+        color: rgb(204, 204, 206);
+        background-color: rgb(70, 70, 70);
+        border-color: #000;
+    }
+
+    li.row strong {
+        color: #f00;
+    }
+
+    .quotecontent div {
+        background-color: rgb(70, 70, 70) !important;
+    }
+
+    hr {
+        border-color: #000;
+        border-top-color: #000;
+    }
+
+    a.button1,
+    input.button1,
+    input.button3,
+    a.button2,
+    input.button2 {
+        color: #efefef;
+        background-color: #396dac;
+        border-color: #d9d9d9;
     }
 
     blockquote {
