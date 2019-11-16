@@ -2,243 +2,266 @@
 
 @-moz-document domain("madfanboy.com") {
 
-body {
-    background-color: rgb(80, 80, 80);
-    background-image: none;
-}
+    @media (min-width: 1200px) {
 
-#inner-wrap {
-    background: rgb(80, 80, 80);
-    border: solid 2px #000;
-}
+        .body-layout-Fluid .wrap,
+        .body-layout-Fluid #inner-wrap {
+            width: 100%;
+            min-width: 1200px;
+        }
+    }
 
-ul#nav-breadcrumbs {
-    background-color: rgb(10, 10, 10);
-    border: 1px solid #000;
-}
+    body {
+        background-color: rgb(0, 0, 0);
+        background-image: none;
+    }
 
-.content_block_header_block ul.topiclist li.header {
-    background-color: rgb(10, 10, 10);
-    background-image: none;
-}
+    #inner-wrap {
+        background: rgb(42, 42, 42);
+        border: solid 2px #000;
+    }
 
-.wrap
-{
-    background-color: rgb(80, 80, 80);
-}
+    ul#nav-breadcrumbs {
+        background-color: rgb(53, 53, 53);
+        border: 1px solid #000;
+    }
 
-li.row {
-    border-bottom-color: rgb(0, 0, 0);
-    background-color: rgb(80, 80, 80);
-}
+    .content_block_header_block ul.topiclist li.header {
+        background-color: rgb(27, 27, 27);
+        background-image: none;
+    }
 
-li.row {
-    border-top: solid 1px rgb(0, 0, 0);
-    border-right: solid 1px rgb(0, 0, 0);
-    border-left: solid 1px rgb(0, 0, 0);
-}
+    .wrap {
+        background-color: rgb(83, 83, 83);
+    }
 
-a {
-    color: #fefefe;
-}
+    li.row {
+        border-bottom-color: rgb(0, 0, 0);
+        background-color: rgb(58, 58, 58);
+    }
 
-h2 {
-    color: #fbfbfb;
-}
+    li.row {
+        border-top: solid 1px rgb(0, 0, 0);
+        border-right: solid 1px rgb(0, 0, 0);
+        border-left: solid 1px rgb(0, 0, 0);
+    }
 
-body {
-    color: #fbfbfb;
-}
-.navbar_footer {
-    background-color:rgb(10, 10, 10);
-    background-image: none;
-}
+    a {
+        color: #d8d8d8;
+    }
 
-.nav-b-a {
-    background-color:rgb(10, 10, 10);
-    background-image: none;
-}
+    h2 {
+        color: #d8d8d8;
+    }
 
-.dropdown .dropdown-contents {
-    background: rgba(80, 80, 80);
-}
+    body {
+        color: #bbb;
+    }
 
-.particles_container {
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgb(2,0,36,1) 0%, rgba(206,206,206,1) 100%);
-}
+    .navbar_footer {
+        background-color: rgb(6, 6, 6);
+        background-image: none;
+    }
 
-.panel {
-    background-color: rgb(80, 80, 80);
-    border: 1px solid #000;
-}
+    .nav-b-a {
+        background-color: rgb(17, 17, 17);
+        background-image: none;
+    }
 
-.bg1, .bg2 {
-    background-color: rgb(50, 50, 50);
-}
-.content {
-    color: #ccccce;
-}
+    .dropdown .dropdown-contents {
+        background: rgb(87, 87, 87);
+    }
 
-.postbody {
-    color: #ccccce;
-}
+    .particles_container {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgb(27, 27, 27) 0%, rgb(46, 46, 46) 100%);
+    }
 
-.forabg, .forumbg, .viewtopic_wrapper {
-    background-color:rgb(10, 10, 10);
-    background-image: none;
-}
+    .panel {
+        background-color: rgb(80, 80, 80);
+        border: 1px solid #000;
+    }
 
-.post {
-    border: 1px solid #000;
-}
+    .bg1,
+    .bg2 {
+        background-color: rgb(37, 37, 37);
+    }
 
-.post:target .content {
-    color: #ccccce;
-}
+    .content {
+        color: #ccccce;
+    }
 
-.panel .inputbox {
-    background-color: rgb(70, 70, 70);
-    border-color:#000;
-}
+    .postbody {
+        color: #ccccce;
+    }
 
-.postprofile {
-    color: #fbfbfb;
-}
-.postprofile strong {
-    color:#ccccce;
-}
+    .forabg,
+    .forumbg,
+    .viewtopic_wrapper {
+        background-color: rgb(10, 10, 10);
+        background-image: none;
+    }
 
-.specialbutton, .specialbutton .icon, .specialbutton:hover, .specialbutton:hover .icon {
-    background-color: rgb(5,5,5);
-}
+    .post {
+        border: 1px solid #000;
+    }
 
-.postlink {
-    color:#ffffff !important;
-}
+    .post:target .content {
+        color: #ccc;
+    }
 
-.button {
-    color: #eeeeee;
-}
+    .panel .inputbox {
+        background-color: rgb(79, 79, 79);
+        border-color: #000;
+    }
 
-.pagination-s li a, .pagination-s li span {
-    border-color: #000;
-    background-color:#333333;
-}
+    .postprofile {
+        color: #c5c5c5;
+    }
 
-.dropdown-extended .header {
-    background-color: rgb(80, 80, 80);;
-}
+    .postprofile strong {
+        color: #fff;
+    }
 
-.dropdown-extended .header {
-    text-shadow: 0px 0px 0px #00000000;
-}
+    .specialbutton,
+    .specialbutton .icon,
+    .specialbutton:hover,
+    .specialbutton:hover .icon {
+        background-color: rgb(5, 5, 5);
+    }
 
-.notification_list p.notification-time {
-    color: #FFFF;
-}
+    .postlink {
+        color: #fff !important;
+    }
 
-.panel {
-    color: #fbfbfb;
-}
+    .button {
+        color: #eee;
+    }
 
-dl.details dt {
-    color: #dddd;
-}
+    .pagination-s li a,
+    .pagination-s li span {
+        border-color: #000;
+        background-color: #333333;
+    }
 
-dl.details dd {
-    color: #fdfdfd;
-}
+    .dropdown-extended .header {
+        background-color: rgb(80, 80, 80);
+        ;
+    }
 
-.tabs .tab > a {
-    background: #101010;
-}
+    .dropdown-extended .header {
+        text-shadow: 0px 0px 0px #f000;
+    }
 
-.navigation a {
-    color: #fafafa;
-    background: rgb(120, 120, 120);
-}
+    .notification_list p.notification-time {
+        color: #FFFF;
+    }
 
-.cp-mini {
-    background-color: rgb(120, 120, 120);;
-}
+    .panel {
+        color: #fff;
+    }
 
-.tabs .activetab > a, .tabs .activetab > a:hover {
-    background-color: #bbbbbb;
-}
+    dl.details dt {
+        color: #dadadadd;
+    }
 
-.pagination li.active span {
-    color: #fff;
-    border-color: #000;
-    background-color:#777777;
-}
+    dl.details dd {
+        color: #f3f3f3;
+    }
 
-.action-bar .button {
-    background-color: #777777;
-}
+    .tabs .tab > a {
+        background: #101010;
+    }
 
-.pagination li a {
-    color:#fafafa;
-}
+    .navigation a {
+        color: #fff;
+        background: rgb(120, 120, 120);
+    }
 
-.button {
-    background-color: #101010;
-    color: #fbfbfb;
-}
+    .cp-mini {
+        background-color: rgb(255, 255, 255);
+        ;
+    }
 
-.panel .button {
-    background-color: #101010;
-    color: #fbfbfb;
-}
+    .tabs .activetab > a,
+    .tabs .activetab > a:hover {
+        background-color: #bbb;
+    }
 
-select {
-    color: #000000;
-}
+    .pagination li.active span {
+        color: #fff;
+        border-color: #f00;
+        background-color: #545454;
+    }
 
-.message-box textarea {
-    color: #ffffff;
-}
+    .action-bar .button {
+        background-color: #5a5a5a;
+    }
 
-.inputbox {
-    color: #ffffff;
-    background-color: rgb(70, 70, 70); 
-}
+    .pagination li a {
+        color: #fff;
+    }
 
-blockquote {
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
+    .button {
+        background-color: #3A3A3A;
+        color: #f00;
+    }
 
-blockquote blockquote {
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
-blockquote blockquote blockquote {
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
-blockquote blockquote blockquote blockquote {
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
-blockquote blockquote blockquote blockquote blockquote {
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
+    .panel .button {
+        background-color: #101010;
+        color: #fff;
+    }
 
-blockquote blockquote blockquote blockquote blockquote blockquote {
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
+    select {
+        color: #000;
+    }
 
-blockquote blockquote blockquote blockquote blockquote blockquote blockquote{
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
+    .message-box textarea {
+        color: #fff;
+    }
 
-blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote{
-    background-color: rgb(70, 70, 70);
-    border: 1px solid #000;
-}
+    .inputbox {
+        color: #000;
+    }
+
+    blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
+
+    blockquote blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
+
+    blockquote blockquote blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
+
+    blockquote blockquote blockquote blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
+
+    blockquote blockquote blockquote blockquote blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
+
+    blockquote blockquote blockquote blockquote blockquote blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
+
+    blockquote blockquote blockquote blockquote blockquote blockquote blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
+
+    blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote {
+        background-color: rgb(70, 70, 70);
+        border: 1px solid #000;
+    }
 
 }
