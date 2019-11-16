@@ -1,0 +1,244 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("madfanboy.com") {
+
+body {
+    background-color: rgb(80, 80, 80);
+    background-image: none;
+}
+
+#inner-wrap {
+    background: rgb(80, 80, 80);
+    border: solid 2px #000;
+}
+
+ul#nav-breadcrumbs {
+    background-color: rgb(10, 10, 10);
+    border: 1px solid #000;
+}
+
+.content_block_header_block ul.topiclist li.header {
+    background-color: rgb(10, 10, 10);
+    background-image: none;
+}
+
+.wrap
+{
+    background-color: rgb(80, 80, 80);
+}
+
+li.row {
+    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgb(80, 80, 80);
+}
+
+li.row {
+    border-top: solid 1px rgb(0, 0, 0);
+    border-right: solid 1px rgb(0, 0, 0);
+    border-left: solid 1px rgb(0, 0, 0);
+}
+
+a {
+    color: #fefefe;
+}
+
+h2 {
+    color: #fbfbfb;
+}
+
+body {
+    color: #fbfbfb;
+}
+.navbar_footer {
+    background-color:rgb(10, 10, 10);
+    background-image: none;
+}
+
+.nav-b-a {
+    background-color:rgb(10, 10, 10);
+    background-image: none;
+}
+
+.dropdown .dropdown-contents {
+    background: rgba(80, 80, 80);
+}
+
+.particles_container {
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(2,0,36,1) 0%, rgba(206,206,206,1) 100%);
+}
+
+.panel {
+    background-color: rgb(80, 80, 80);
+    border: 1px solid #000;
+}
+
+.bg1, .bg2 {
+    background-color: rgb(50, 50, 50);
+}
+.content {
+    color: #ccccce;
+}
+
+.postbody {
+    color: #ccccce;
+}
+
+.forabg, .forumbg, .viewtopic_wrapper {
+    background-color:rgb(10, 10, 10);
+    background-image: none;
+}
+
+.post {
+    border: 1px solid #000;
+}
+
+.post:target .content {
+    color: #ccccce;
+}
+
+.panel .inputbox {
+    background-color: rgb(70, 70, 70);
+    border-color:#000;
+}
+
+.postprofile {
+    color: #fbfbfb;
+}
+.postprofile strong {
+    color:#ccccce;
+}
+
+.specialbutton, .specialbutton .icon, .specialbutton:hover, .specialbutton:hover .icon {
+    background-color: rgb(5,5,5);
+}
+
+.postlink {
+    color:#ffffff !important;
+}
+
+.button {
+    color: #eeeeee;
+}
+
+.pagination-s li a, .pagination-s li span {
+    border-color: #000;
+    background-color:#333333;
+}
+
+.dropdown-extended .header {
+    background-color: rgb(80, 80, 80);;
+}
+
+.dropdown-extended .header {
+    text-shadow: 0px 0px 0px #00000000;
+}
+
+.notification_list p.notification-time {
+    color: #FFFF;
+}
+
+.panel {
+    color: #fbfbfb;
+}
+
+dl.details dt {
+    color: #dddd;
+}
+
+dl.details dd {
+    color: #fdfdfd;
+}
+
+.tabs .tab > a {
+    background: #101010;
+}
+
+.navigation a {
+    color: #fafafa;
+    background: rgb(120, 120, 120);
+}
+
+.cp-mini {
+    background-color: rgb(120, 120, 120);;
+}
+
+.tabs .activetab > a, .tabs .activetab > a:hover {
+    background-color: #bbbbbb;
+}
+
+.pagination li.active span {
+    color: #fff;
+    border-color: #000;
+    background-color:#777777;
+}
+
+.action-bar .button {
+    background-color: #777777;
+}
+
+.pagination li a {
+    color:#fafafa;
+}
+
+.button {
+    background-color: #101010;
+    color: #fbfbfb;
+}
+
+.panel .button {
+    background-color: #101010;
+    color: #fbfbfb;
+}
+
+select {
+    color: #000000;
+}
+
+.message-box textarea {
+    color: #ffffff;
+}
+
+.inputbox {
+    color: #ffffff;
+    background-color: rgb(70, 70, 70); 
+}
+
+blockquote {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+
+blockquote blockquote {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+blockquote blockquote blockquote {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+blockquote blockquote blockquote blockquote {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+blockquote blockquote blockquote blockquote blockquote {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+
+blockquote blockquote blockquote blockquote blockquote blockquote {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+
+blockquote blockquote blockquote blockquote blockquote blockquote blockquote{
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+
+blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote{
+    background-color: rgb(70, 70, 70);
+    border: 1px solid #000;
+}
+
+}
